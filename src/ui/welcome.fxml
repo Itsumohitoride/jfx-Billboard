@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <MenuBar prefHeight="29.0" prefWidth="600.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Options">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#addBillboard" text="Agragar valla publicitaria" />
+                  <MenuItem mnemonicParsing="false" onAction="#showBillboard" text="Mostrar vallas publicitarias" />
+                  <MenuItem mnemonicParsing="false" onAction="#importData" text="Importar vallas publicitarias" />
+                  <MenuItem mnemonicParsing="false" onAction="#exportDangerousBillboardReport" text="Exportar vallas publicitarias" />
+                  <MenuItem mnemonicParsing="false" onAction="#exitProgram" text="Salir" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <BorderPane prefHeight="200.0" prefWidth="200.0" />
+   </children>
+</VBox>
